@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FOODPICKER ITF — สุ่มเมนูอาหาร</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <nav class="navbar">
+    <div class="navbar-brand">FOODPICKER ITF</div>
+  </nav>
+
+  <main class="container">
+    <section class="food-card" id="foodCard">
+      <div class="food-image-wrapper">
+        <img id="foodImage" src="" alt="รูปภาพเมนูอาหาร" />
+        <span class="price-badge" id="priceBadge"></span>
+      </div>
+
+      <div class="food-info">
+        <h1 class="food-name" id="foodName"></h1>
+        <p class="food-description" id="foodDescription"></p>
+        <p class="food-price" id="foodPrice"></p>
+
+        <button class="random-btn" id="randomBtn" type="button">
+          สุ่มเมนูอาหาร
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
